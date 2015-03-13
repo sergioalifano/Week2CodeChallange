@@ -51,7 +51,7 @@ namespace Week_2_Code_Challange
         }
 
         /// <summary>
-        /// Count the number instances of a letter in a string
+        /// Count the number of instances of a letter in a string
         /// </summary>
         /// <param name="letter">the letter to look for</param>
         /// <param name="inString">the string where to look</param>
@@ -81,9 +81,9 @@ namespace Week_2_Code_Challange
             }
 
             Console.WriteLine("Input: " + inString);
-            Console.WriteLine("Number of lowercase {0}s found: {1}",letter,isLower );
-            Console.WriteLine("Number of UPPERCASE {0}s found: {1}", letter, isUpper);
-            Console.WriteLine("Total number of {0}s found: {1} ",letter,totalFound);
+            Console.WriteLine("Number of lowercase {0}'s found: {1}",letter,isLower );
+            Console.WriteLine("Number of UPPERCASE {0}'s found: {1}", letter, isUpper);
+            Console.WriteLine("Total number of {0}'s found: {1} ",letter,totalFound);
         }
     }
 }
